@@ -7,7 +7,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **Tatoo-Hand**
 | :label: Tecnologias | <div style="display: inline_block"><br><img align="center" alt="Logo-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"><img align="center" alt="Logo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><img align="center" alt="Logo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></div>
-| :rocket: URL       | http://127.0.0.1:5500/tatoo-hand/artes.html
+| :rocket: URL       | 
 | :fire: Desafio     | **Projeto de Pagina web para estudio de tatuagem - Tatoo-Hand**
 
 ![](https://cdn.discordapp.com/attachments/1089186196858622065/1099093660248850463/index.gif#vitrinedev)
