@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina para treinar html, css e javaScript">
+
+     <!--CSS do projeto-->
+     <link rel="stylesheet" href="/css/style.css">
+     <link rel="stylesheet" href="/css/style-galeria.css">
+     <!--JS do projeto-->
+    <script defer src="/js/script-galeria.js"></script>
+
+    <title>Tatoo-Hand</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="img-cabecalho" src="img/t4.png" alt="logo site">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="index.html">Início</a>
+            <a class="cabecalho-menu-item" href="artes.html">Galeria</a>
+            <a class="cabecalho-menu-item" href="historia.html">História da Tatoo-Hand</a>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <div class="galeria-modal" onclick="fechaGaleria()">
+            <span>X</span>
+            <img src="" alt="">
+        </div>
+       <section>
+        <div class="galeria">
+            <div class="single-galeria w-2 h-2">
+                <img src="https://images.unsplash.com/photo-1564426622559-5af68da63b96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                 alt=""
+                 onclick="abreGaleria('https://images.unsplash.com/photo-1564426622559-5af68da63b96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80')">
+            </div>
+            <div class="single-galeria w-2">
+                <img src="https://images.unsplash.com/photo-1588417490413-57973b627712?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                alt=""
+                onclick="abreGaleria('https://images.unsplash.com/photo-1588417490413-57973b627712?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80')">
+            </div>
+            <div class="single-galeria">
+                <img src="https://images.unsplash.com/photo-1588471652142-cb887c12718f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                alt=""
+                onclick="abreGaleria('https://images.unsplash.com/photo-1588471652142-cb887c12718f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')">
+            </div>
+            <div class="single-galeria h-2">
+                <img src="https://images.unsplash.com/photo-1640894822819-0a94bec464bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                alt=""
+                onclick="abreGaleria('https://images.unsplash.com/photo-1640894822819-0a94bec464bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80')">
+            </div>
+            <div class="single-galeria">
+                <img src="https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                alt=""
+                onclick="abreGaleria('https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')">
+            </div>
+            <div class="single-galeria w-2">
+                <img src="https://images.unsplash.com/photo-1562962230-16e4623d36e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                alt=""
+                onclick="abreGaleria('https://images.unsplash.com/photo-1562962230-16e4623d36e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')">
+            </div>
+            <div class="single-galeria w-2 h-2">
+                <img src="https://media.discordapp.net/attachments/1089186196858622065/1098968337779806369/t6.jpg?width=395&height=478"
+                 alt=""
+                 onclick="abreGaleria('https://media.discordapp.net/attachments/1089186196858622065/1098968337779806369/t6.jpg?width=395&height=478')">
+            </div>
+            <div class="single-galeria w-2">
+                <img src="https://media.discordapp.net/attachments/1089186196858622065/1098968386874118244/t3.jpg?width=401&height=478"
+                alt=""
+                onclick="abreGaleria('https://media.discordapp.net/attachments/1089186196858622065/1098968386874118244/t3.jpg?width=401&height=478')">
+            </div>
+            <div class="single-galeria">
+                <img src="https://media.discordapp.net/attachments/1089186196858622065/1098968407224897627/t4.jpg?width=404&height=478"
+                alt=""
+                onclick="abreGaleria('https://media.discordapp.net/attachments/1089186196858622065/1098968407224897627/t4.jpg?width=404&height=478')">
+            </div>
+            <div class="single-galeria h-2">
+                <img src="https://media.discordapp.net/attachments/1089186196858622065/1098968439281958972/t00.jpg?width=257&height=478"
+                alt=""
+                onclick="abreGaleria('https://media.discordapp.net/attachments/1089186196858622065/1098968439281958972/t00.jpg?width=257&height=478')">
+            </div>
+            <div class="single-galeria">
+                <img src="https://media.discordapp.net/attachments/1089186196858622065/1098968315143139338/t2.2.jpg?width=269&height=477"
+                alt=""
+                onclick="abreGaleria('https://media.discordapp.net/attachments/1089186196858622065/1098968315143139338/t2.2.jpg?width=269&height=477')">
+            </div>
+            <div class="single-galeria w-2">
+                <img src="https://media.discordapp.net/attachments/1089186196858622065/1098968374089895946/t2.jpg?width=269&height=478"
+                alt=""
+                onclick="abreGaleria('https://media.discordapp.net/attachments/1089186196858622065/1098968374089895946/t2.jpg?width=269&height=478')">
+            </div>
+        </div>
+       </section>
+    </main>
+    <footer class="rodape">
+        <img class="rodape-img" src="/img/t4.png" alt="logo site">
+    </footer>
+    
+</body>
+</html>
